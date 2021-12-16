@@ -1,0 +1,6 @@
+1. wsl -> Linux OS 사용 가능
+2. CPU -> Linux Kernal -> 기능 추가 -> CentOS, Ubuntu, Debian 등.
+3. 172.22.XXX.XXX -> STGClient IP 내역.
+4. docker-compose는 Network를 지정하지 않으면 스스로 Network를 생성함. 172.XX -> 1씩 증가.
+5. jq 설치. JSON Parser
+6. 
