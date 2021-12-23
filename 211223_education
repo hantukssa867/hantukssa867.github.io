@@ -1,3 +1,4 @@
 1. docker-compose 사용시 -p (프로젝트명)을 설정하면 명령어 실행시 -p 옵션을 매번 줘야한다.
 2. nginx.conf의 80 port를 사용할 경우 관리자 권한으로 실행시켜야한다. 1024 하위 포트는 관리자가 아니면 open이 불가하다.
-3. 
+3. nginx-proxy, Container가 올라갔을 경우 nginx.conf에 upstream 자동으로 추가
+4. 
