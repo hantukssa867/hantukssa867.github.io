@@ -1,0 +1,17 @@
+1. JVM
+  JDK8 이상부터 HEAP 영역 구조 변경 (Metaspace가 생성됨.-JNI 처리)
+  GC - Majon GC
+     └ Minor GC
+  JVM 모니터링 -> jMap
+  Wrapper 대신 Primitive 타입을 선언해서 사용하자. -> Wrapper는 HEAP 영역에 쌓이기 때문이다.
+  
+2. ArrayList & LinkedList
+  ArrayList: 예상되는 capacity를 잡아서 생성하자.
+  LinkedList: 중간에 삽입/삭제가 빈번할 경우 ArrayList보다 유리하다.
+  
+3. HashMap
+  예상되는 버킷, LoadFactor를 지정하여 생성하자. (ArrayList와 마찬가지 이유로)
+  
+4. 반복문 조건에 메소드를 사용하지 말자. (ex: for(int i = 0; i < a.size(); i++))
+
+5. 열거형을 잘 활용하자. (우아한 형제들 기술블로그 참고.)
