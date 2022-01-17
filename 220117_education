@@ -1,0 +1,7 @@
+Reactive Programming
+1. Request/Response의 Thread가 다를수 있다.
+2. map -> flatMap을 사용하자. map은 매번 instance를 생성?
+3. route 사용을 권장.
+4. Mono.defer : Context를 사용할 때
+5. Thread 수 = CPU Core 수 * 2
+6. Spring MVC Stack처럼 편의 기능이 없기때문에 대부분 직접 구현해야할 부분이 많다.
